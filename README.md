@@ -1,1 +1,1 @@
-## atabricks DBRX RAG Implimentation
+## Databricks DBRX RAG Implimentation
