@@ -5,15 +5,18 @@
 This project demonstrates the implementation of a Retrieval-Augmented Generation (RAG) application using DBRX in a Databricks environment. The application leverages large language models (LLMs), embeddings, and tokenizers to provide intelligent and context-aware responses.
 
 ## Project Structure
-DBRX_RAG_Implementation
-├── README.md
-├── resources
-│ └── data
-│ └── sample_data.json # Data required for RAG application
-└── src
-├── Load_component.ipynb # LLM, embedding & tokenizer are called here
-├── utils.ipynb # RAG class is built here
-└── run.ipynb # Run the function here
+
+The project structure consists of the following directories and files:
+
+1. **DBRX_RAG_Implementation**: Root directory of the project.
+2. **README.md**: Markdown file containing project information.
+3. **resources**: Directory containing project resources.
+    - **data**: Subdirectory for storing data files.
+4. **src**: Source code directory.
+    - **Load_component.ipynb**: Jupyter Notebook where LLM, embedding, and tokenizer are called.
+    - **utils.ipynb**: Jupyter Notebook where the RAG class is defined.
+    - **run.ipynb**: Jupyter Notebook responsible for running the RAG application.
+
 
 
 ## Requirements
